@@ -138,6 +138,43 @@ p {
     text-align: center;
 }
 
+#tipos-safras{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.card-safras{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #c9b3b8;
+    color: #230b10;
+    height: 6rem;
+    width: 30rem;
+    overflow-y: hidden;
+    padding: 10px 1rem;
+    border-radius: 1rem 4rem;
+}
+
+.card-safras h3{
+    font-family: "Playfair Display", serif;
+    font-size: 1.8rem;
+    color: #230b10;
+    margin-bottom: 0.8rem;
+}
+
+.icone-safra-wrapper{
+    overflow-y: hidden;
+    width: 4rem;
+    padding: 4px;
+}
+.icone-safra{
+    width: 100%;
+    height: auto;
+}
+
 @media (max-width: 768px) {
     .central{
         display: flex;
@@ -151,6 +188,9 @@ p {
     .informacoes{
         width: 100%;
         height: 70rem;
+    }
+    .card-safras{
+        width: 20rem;
     }
 
 }
